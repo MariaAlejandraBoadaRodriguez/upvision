@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* gray-100 */
+    color: #1f2937; /* gray-800 */
+    transition: transform 0.8s ease-in-out;
+}
+  
+.slideUp {
+    transform: translateY(-100vh);
+}
+  
